@@ -1,6 +1,6 @@
 Sub HideHeadersGridlinesFormulaBar()
 '
-' HideHeadersGridlinesFormulaBar Makro
+' HideHeadersGridlinesFormulaBar
 '
 If ActiveWindow.DisplayHeadings = False And _
    ActiveWindow.DisplayGridlines = False And _
@@ -19,7 +19,7 @@ Else
         ActiveWindow.DisplayGridlines = False
         Application.DisplayFormulaBar = False
         
-        End If
+    End If
         
 End If
          
